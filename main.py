@@ -72,7 +72,7 @@ def stabilize_roi(frame, roi_center):
 def main():
     global prev_roi_center
     key = 0  # Переменная для хранения кода последней нажатой клавиши
-    percent = 79
+    percent = 78
     while True:
         ret, frame = cap.read()
         if not ret:
